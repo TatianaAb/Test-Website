@@ -1,2 +1,43 @@
 body
- {background:blue}
+ {
+  font-family: Arial;
+  font-size: 1.2em;
+  max-width: 960px;
+  background: beige;
+  background-image: url(images/wallpapers.jpg);
+  background-position: 120px 5px;
+}
+
+h1, h2 {
+color: brown;
+font-style: italic;
+}
+a:visited {
+  color: brown;
+}
+
+blockquote {
+  text-shadow: 2px 2px 4px white;
+  padding: 10px;
+  border-left: 5px brown solid;
+  }
+
+  cite {
+  display: block;
+  margin-top: 10px;
+}
+
+.shadow {
+  color: white;
+  text-shadow: 2px 2px 4px orange;
+  text-align: center;
+
+}
+
+@media screen and (max-width: 400px) {
+  img {
+  width: 60%;}
+  body {
+    font-size: smaller;
+  }
+}
