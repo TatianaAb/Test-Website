@@ -16,6 +16,10 @@ a:visited {
   color: brown;
 }
 
+#spacing {
+letter-spacing: 3px;
+font-weight: bold;}
+
 blockquote {
   text-shadow: 2px 2px 4px white;
   padding: 10px;
