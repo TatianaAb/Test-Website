@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personal program</title>
+</head>
+<body>
+<form action="success.html" method="post">
+  <div>
+      <label>Name:</label>
+      <input type="text" name="name">
+    </div>
+<br>
+      <div>
+    <label>Gender:</label>
+    <select>
+      <option value = "Male">Male</option>
+      <option value = "Female">Female</option>
+    </select>
+  </div>
+  <br>
+  <div>
+    <label>What is your weight?</label>
+    <input type="number" name="weight">
+  </div>
+  <br>
+  <div>
+    <label>What is your height?</label>
+    <input type="text" name="height">
+  </div>
+  <br>
+  <div>
+    <label>What is your Age?</label>
+    <input type="number" name="age">
+  </div>
+  <br>
+  <div>
+    <label>Do you have any injuries if yes please describe:</label>
+    <br>
+    <textarea cols="50" rows="10" name="message"></textarea>
+  </div>
+  <fieldset>
+    <legend> Create your plan </legend>
+    <p><label> How many time per week you wish to exercise?<input type=radio name="goal" value="2-3"> 2-3
+    <input type=radio name="goal" value="4-5"> 4-5 </label></p>
+    <p><label> What is your goal?<input type=radio name="goal1" value="Weight loss">  Weight loss 
+    <input type=radio name="goal1" value="Mass gain">  Mass gain 
+    <input type=radio name="goal1" value="Tune up">  Tune up </label></p>
+    <p><label> Where are you going to work out?<input type=radio name="goal2" value="home"> At Home 
+    <input type=radio name="goal2" value="Gym"> In the Gym </label></p>
+  </fieldset>
+  <br>
+  <div>
+      <label>Email:</label>
+      <input type="email" name="email">
+    </div>
+    <br>
+  <button type="submit">Submit</button>
+</form>
+</body>
+</html>
